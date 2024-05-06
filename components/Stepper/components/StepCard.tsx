@@ -41,7 +41,7 @@ export default function StepCard(props: Props) {
           </span>
         </div>
       )}
-      <div className="relative -mt-7 h-full rounded-[28px] border-[1.5px] bg-[#E3EAFF] px-6 pb-6 pt-12 border-[#0000001a]">
+      <div className="relative -mt-7 h-full rounded-[28px] border-[1.5px] bg-[#fee704] px-6 pb-6 pt-12 border-[#0000001a]">
         <span className="text-[24px] font-bold leading-tight font-como">
           {props.title}
           {props.underlinedTitle !== undefined &&
